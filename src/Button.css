@@ -1,0 +1,160 @@
+button {
+  border-radius: 2px;
+  padding: 6px 30px;
+}
+
+.button-primary {
+  background-color: #0069d9;
+  color: white;
+  border: #0069d9;
+}
+
+.primary-button-large {
+  padding: 20px 60px;
+}
+
+.button-primary-hollow {
+  background-color: transparent;
+  color: #0069d9;
+  border: 1px solid #0069d9;
+  border-radius: 2px;
+}
+.button-primary-hover:hover {
+  background-color: #0651a1;
+}
+.button-primary-lite {
+  background-color: #c6e3ff;
+  color: #0069d9;
+}
+.button-primary-large-lite {
+  background-color: #c6e3ff;
+  color: #0069d9;
+  padding: 20px 60px;
+}
+.button-primary-large-hollow {
+  padding: 20px 60px;
+  background-color: transparent;
+  color: #0069d9;
+  border: 1px solid #0069d9;
+  border-radius: 2px;
+}
+.button-danger {
+  background-color: red;
+  color: white;
+  border: red;
+}
+
+.button-success {
+  background-color: green;
+  color: white;
+  border: green;
+}
+
+.button-warning {
+  background-color: orange;
+  color: white;
+  border: orange;
+}
+
+.button-warning-large {
+  background-color: orange;
+  color: white;
+  border: orange;
+  padding: 20px 60px;
+}
+
+.button-warning-hollow {
+  background-color: transparent;
+  color: orange;
+  border: 1px solid orange;
+}
+
+.button-warning-hover:hover {
+  background-color: rgb(211, 142, 14);
+}
+
+.button-warning-lite {
+  background-color: rgb(255, 225, 170);
+  color: orange;
+}
+
+.button-warning-large-lite {
+  background-color: rgb(255, 225, 170);
+  color: orange;
+  padding: 20px 60px;
+}
+
+.button-warning-large-hollow {
+  background-color: transparent;
+  color: orange;
+  border: 1px solid orange;
+  padding: 20px 60px;
+}
+
+.button-default {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border: rgb(70, 70, 70);
+}
+
+.button-default-large {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border: rgb(70, 70, 70);
+  padding: 20px 60px;
+}
+
+.button-default-hover:hover {
+  background-color: rgb(111, 111, 111);
+}
+
+.button-default-lite {
+  background-color: rgb(208, 208, 208);
+  color: rgb(111, 111, 111);
+  border: rgb(70, 70, 70);
+}
+
+.button-default-large-lite {
+  background-color: rgb(208, 208, 208);
+  color: rgb(111, 111, 111);
+  border: rgb(70, 70, 70);
+  padding: 20px 60px;
+}
+
+.button-default-hollow {
+  background-color: transparent;
+  color: rgb(70, 70, 70);
+  border: 1px solid rgb(70, 70, 70);
+}
+
+.button-default-large-hollow {
+  background-color: transparent;
+  color: rgb(70, 70, 70);
+  border: 1px solid rgb(70, 70, 70);
+  padding: 20px 60px;
+}
+
+.button-success-large {
+  padding: 20px 60px;
+}
+
+.button-success-hover:hover {
+  background-color: rgb(25, 103, 25);
+}
+
+.button-success-lite {
+  background-color: rgb(179, 232, 179);
+  color: green;
+}
+
+.button-succes-large-lite {
+  background-color: rgb(179, 232, 179);
+  color: green;
+  padding: 20px 60px;
+}
+
+.button-success-hollow {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+}
