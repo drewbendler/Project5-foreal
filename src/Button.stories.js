@@ -76,5 +76,26 @@ storiesOf('Button', module)
     <Button label="confirm" type="success" successHollow />
   ))
   .add('Large Hollow Success Button', () => (
-    <Button label="confirm" type="success" succesLargeHover />
+    <Button label="confirm" type="success" succesLargeHollow />
+  ))
+  .add('Large Danger Button', () => (
+    <Button label="cancel" type="danger" dangerLarge />
+  ))
+  .add('Large Hollow Danger Button', () => (
+    <Button label="cancel" type="danger" dangerLargeHollow />
+  ))
+  .add('Hover Danger Button', () => (
+    <Button label="cancel" type="danger" dangerHover />
+  ))
+  .add('Lite Danger Button', () => (
+    <Button label="cancel" type="danger" dangerLite />
+  ))
+  .add('Large Lite Danger Button', () => (
+    <Button label="cancel" type="danger" dangerLargeLite />
+  ))
+  .add('Hollow Danger Button', () => (
+    <Button label="cancel" type="danger" dangerHollow />
+  ))
+  .add('Shopping cart icon', () => (
+    <Button label="Add to cart" type="primary" addToCartButton />
   ));

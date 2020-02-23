@@ -76,6 +76,31 @@ const Button = props => {
   if (props.successHollow) {
     classList += ` button-success-hollow`;
   }
+  if (props.succesLargeHollow) {
+    classList += ` button-success-large-hollow`;
+  }
+  if (props.dangerLarge) {
+    classList += ` button-danger-large`;
+  }
+  if (props.dangerLargeHollow) {
+    classList += ` button-danger-large-hollow`;
+  }
+  if (props.dangerHover) {
+    classList += ` button-danger-hover`;
+  }
+  if (props.dangerLite) {
+    classList += ` button-danger-lite`;
+  }
+  if (props.dangerLargeLite) {
+    classList += ` button-danger-large-lite`;
+  }
+  if (props.dangerHollow) {
+    classList += ` button-danger-hollow`;
+  }
+  if (props.addToCartButton) {
+    classList += ` button-addToCart`;
+  }
+
   return (
     <button className={classList} onCLick={props.onCLick}>
       {props.label}

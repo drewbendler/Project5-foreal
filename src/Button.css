@@ -158,3 +158,56 @@ button {
   color: green;
   border: 1px solid green;
 }
+
+.button-success-large-hollow {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  padding: 20px 60px;
+}
+
+.button-danger-large {
+  padding: 20px 60px;
+}
+
+.button-danger-large-hollow {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  padding: 20px 60px;
+}
+
+.button-danger-hover:hover {
+  background-color: rgb(171, 45, 45);
+}
+
+.button-danger-lite {
+  background-color: rgb(255, 169, 169);
+  color: red;
+}
+
+.button-danger-large-lite {
+  background-color: rgb(255, 169, 169);
+  color: red;
+  padding: 20px 60px;
+}
+
+.button-danger-hollow {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+}
+
+.button-addToCart {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+  background-color: #c6e3ff;
+  color: #0069d9;
+  background-image: url('Images/cart_2.png');
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position-x: 8px;
+  background-position-y: 6px;
+}
