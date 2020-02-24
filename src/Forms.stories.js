@@ -6,7 +6,4 @@ import Form from './Form';
 storiesOf('Form', module)
   .add('Normal', () => <Form label="Email" type="normal" normalForm />)
   .add('Medium', () => <Form label="Email" type="medium" mediumForm />)
-  .add('large', () => <Form label="Email" type="large" largeForm />)
-  .add('Large Outline drop-down', () => (
-    <Form label="Select" type="normal" normalDropDown />
-  ));
+  .add('large', () => <Form label="Email" type="large" largeForm />);

@@ -112,4 +112,13 @@ storiesOf('Button', module)
   ))
   .add('Drop Down Short', () => (
     <Button label="Select" type="dropdownNormal" dropdownShort />
+  ))
+  .add('Lite Dropdown', () => (
+    <Button label="Select" type="dropdownLite" dropdownLite />
+  ))
+  .add('Large Lite Dropdown', () => (
+    <Button label="Select" type="dropdownLite" dropdownLargeLite />
+  ))
+  .add('Short Lite Dropdown', () => (
+    <Button label="Select" type="dropdownLite" dropdownShortLite />
   ));

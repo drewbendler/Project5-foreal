@@ -278,3 +278,43 @@ button {
   background-position-y: 12px;
   text-align: left;
 }
+
+.button-dropdown-lite {
+  width: 175px;
+  line-height: 1.5em;
+  background-color: rgb(232, 232, 232);
+  border: rgb(232, 232, 232);
+  color: black;
+  text-align: left;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 145px;
+  background-position-y: 15px;
+  font-size: 14px;
+}
+
+.button-dropdown-large-lite {
+  width: 175px;
+  line-height: 2em;
+  background-color: rgb(232, 232, 232);
+  border: rgb(232, 232, 232);
+  color: black;
+  text-align: left;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 145px;
+  background-position-y: 20px;
+}
+
+.button-dropdown-short-lite {
+  width: 90px;
+  line-height: 1.5em;
+  background-color: rgb(232, 232, 232);
+  border: rgb(232, 232, 232);
+  color: black;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 75px;
+  background-position-y: 12px;
+  text-align: left;
+}

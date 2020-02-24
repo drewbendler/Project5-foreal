@@ -127,6 +127,15 @@ const Button = props => {
   if (props.dropdownShort) {
     classList += ` button-dropdown-short`;
   }
+  if (props.dropdownLite) {
+    classList += ` button-dropdown-lite`;
+  }
+  if (props.dropdownLargeLite) {
+    classList += ` button-dropdown-large-lite`;
+  }
+  if (props.dropdownShortLite) {
+    classList += ` button-dropdown-short-lite`;
+  }
 
   return (
     <button className={classList} onCLick={props.onCLick}>
