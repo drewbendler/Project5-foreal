@@ -6,7 +6,8 @@ class UpDown extends Component {
     super(props);
     this.state = {
       clicks: 0,
-      show: true
+      show: true,
+      disabled: false
     };
   }
 
@@ -21,10 +22,12 @@ class UpDown extends Component {
     if (this.props.upDown) {
       classList += ` button-upDown`;
     }
+    if (this.state.clicks === 10) {
+    }
     return (
       <div className={classList}>
         <button className="up" onClick={this.Increment}></button>
-        {this.state.show ? <h2>{this.state.clicks}</h2> : ''}
+        <p>{this.state.clicks}</p>
         <button className="down" onClick={this.Decrement}></button>
       </div>
     );

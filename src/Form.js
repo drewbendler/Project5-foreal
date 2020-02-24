@@ -21,7 +21,7 @@ const Forms = props => {
   return (
     <form className={classList}>
       {props.label}
-      <input className={classList} placeholder="Email" />
+      <input className={classList} placeholder={props.placeholder || 'Email'} />
     </form>
   );
 };
