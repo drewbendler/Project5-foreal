@@ -98,4 +98,18 @@ storiesOf('Button', module)
   ))
   .add('Shopping cart icon', () => (
     <Button label="Add to cart" type="primary" addToCartButton />
+  ))
+  .add('Shopping cart icon', () => <Button label="" type="primary" cartIcon />)
+  .add('Heart Icon Button', () => <Button label="" type="primary" heartIcon />)
+  .add('Add To Favorites Button', () => (
+    <Button label="Add to Favorites" type="primary" addToFavs />
+  ))
+  .add('DropDown Normal', () => (
+    <Button label="Select" type="dropdownNormal" dropdownNormal />
+  ))
+  .add('Dropdown Large', () => (
+    <Button label="Select" type="dropdownNormal" dropdownLarge />
+  ))
+  .add('Drop Down Short', () => (
+    <Button label="Select" type="dropdownNormal" dropdownShort />
   ));

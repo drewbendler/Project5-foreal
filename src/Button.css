@@ -211,3 +211,70 @@ button {
   background-position-x: 8px;
   background-position-y: 6px;
 }
+
+.button-cartIcon {
+  background-color: #c6e3ff;
+  background-image: url('Images/cart_2.png');
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-position-x: 6px;
+  background-position-y: 6px;
+}
+
+.button-heartIcon {
+  background-color: #c6e3ff;
+  background-image: url('Images/hearts.png');
+  background-repeat: no-repeat;
+  padding: 15px;
+  background-position-x: 7px;
+  background-position-y: 7px;
+}
+
+.button-addToFavs {
+  background-color: #c6e3ff;
+  color: #0069d9;
+  background-image: url('Images/hearts.png');
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position-x: 8px;
+  background-position-y: 6px;
+}
+
+.button-dropdown-normal {
+  width: 175px;
+  line-height: 1.5em;
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  text-align: left;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 145px;
+  background-position-y: 12px;
+}
+.button-dropdown-large {
+  width: 175px;
+  line-height: 2.5em;
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  text-align: left;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 145px;
+  background-position-y: 22px;
+  font-size: 14px;
+}
+
+.button-dropdown-short {
+  width: 90px;
+  line-height: 1.5em;
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  background-image: url(Images/arrowdown.png);
+  background-repeat: no-repeat;
+  background-position-x: 75px;
+  background-position-y: 12px;
+  text-align: left;
+}

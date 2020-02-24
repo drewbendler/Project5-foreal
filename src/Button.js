@@ -3,7 +3,16 @@ import './Button.css';
 
 const Button = props => {
   let classList = '';
-  let types = ['primary', 'danger', 'warning', 'success', 'default'];
+  let types = [
+    'primary',
+    'danger',
+    'warning',
+    'success',
+    'default',
+    'dropdownNormal',
+    'dropdownLite',
+    'dropdownShort'
+  ];
   if (types.includes(props.type)) {
     classList += `button-${props.type}`;
   }
@@ -99,6 +108,24 @@ const Button = props => {
   }
   if (props.addToCartButton) {
     classList += ` button-addToCart`;
+  }
+  if (props.cartIcon) {
+    classList += ` button-cartIcon`;
+  }
+  if (props.heartIcon) {
+    classList += ` button-heartIcon`;
+  }
+  if (props.addToFavs) {
+    classList += ` button-addToFavs`;
+  }
+  if (props.dropdownNormal) {
+    classList += ` button-dropdown-normal`;
+  }
+  if (props.dropdownLarge) {
+    classList += ` button-dropdown-large`;
+  }
+  if (props.dropdownShort) {
+    classList += ` button-dropdown-short`;
   }
 
   return (
