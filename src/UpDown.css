@@ -1,0 +1,33 @@
+.button-upDown {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 2px;
+}
+
+h2 {
+  display: inline;
+  padding: 5px;
+}
+
+.up {
+  background-image: url('Images/Group\ 27.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: white;
+  padding: 1;
+}
+
+.down {
+  background-image: url('Images/Rectangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: white;
+}
